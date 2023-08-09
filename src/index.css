@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--primary);
+}
+
+:root {
+  --font-family: "Roboto", "sans-serif";
+  --primary: rgb(23, 23, 65);
+  --border: rgb(197, 197, 197);
+  --black: #000;
+  --white: #fff;
+  --red: rgb(243, 61, 61);
+}
